@@ -8,16 +8,19 @@ def sentiment_analyzer_scores(sentence):
     return score
 
 st.title('Intro to Natural Language Processing')
-st.header('Tools: Python, Vader Sentiment Analyzer, Streamlit, Heroku')
-
-
+st.markdown('Tools Used:  \n'
+    '- Python  \n'
+    '- Vader Sentiment Analyzer  \n'
+    '- Streamlit  \n'
+    '- Heroku')
 
 sentence = st.text_input("enter sentence below")
-
 st.write(sentence)
 
 score = sentiment_analyzer_scores(sentence)
 st.write(score)
+
+st.write('Compound > 0 indicates positive sentiment.  \nCompound < 0 indicates negative sentiment.')
 
 st.write("\n \n \n \n \n \n \n \n")
 st.header('Tutorial - how to make this yourself!')
@@ -37,13 +40,19 @@ st.code("import streamlit as st \n"
     "   return score \n"
     " \n"
     "st.title('Intro to Natural Language Processing') \n"
-    "st.header('Tools: Python, Vader Sentiment Analyzer, Streamlit, Heroku') \n"
-    " \n"
+    "st.markdown('Tools Used: \\n'\n"
+    "   '- Python  \\n'\n"
+    "   '- Vader Sentiment Analyzer  \\n'\n"
+    "   '- Streamlit  \\n'\n"
+    "   '- Heroku')   \n"
+    "  \n"
     "sentence = st.text_input('enter sentence below') \n"
     "st.write(sentence) \n"
     " \n"
     "score = sentiment_analyzer_scores(sentence) \n"
-    "st.write(score) \n")
+    "st.write(score) \n"
+    "st.write('Compound > 0 indicates positive sentiment.  \\nCompound < 0 indicates negative sentiment.')")
+
 
 st.write("That's the entire app!  \n"
     " \n"
