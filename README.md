@@ -4,6 +4,9 @@
 
 For a super quickly deployed app, try using Streamlit with Vader. For getting a prototype on the web quickly, deploy it on Heroku with minimal configuration requirements. 
 
+Check out the app here:  
+<a href="https://tf-nlp-1.herokuapp.com/">
+
 The following are needed for Heroku to run a Streamlit app:
 
 	1. Your Streamlit app (app.py or similar)

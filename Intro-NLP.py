@@ -8,11 +8,7 @@ def sentiment_analyzer_scores(sentence):
     return score
 
 st.title('Intro to Natural Language Processing')
-st.markdown('Tools Used:  \n'
-    '- Python  \n'
-    '- Vader Sentiment Analyzer  \n'
-    '- Streamlit  \n'
-    '- Heroku')
+
 
 sentence = st.text_input("enter sentence below")
 st.write(sentence)
@@ -22,8 +18,16 @@ st.write(score)
 
 st.write('Compound > 0 indicates positive sentiment.  \nCompound < 0 indicates negative sentiment.')
 
-st.write("\n \n \n \n \n \n \n \n")
+
+
+st.write("  \n")
 st.header('Tutorial - how to make this yourself!')
+
+st.markdown('Tools Used:  \n'
+    '- Python  \n'
+    '- Vader Sentiment Analyzer  \n'
+    '- Streamlit  \n'
+    '- Heroku')
 
 st.write("First, install dependencies:")  
 st.code("pip install streamlit \npip install vaderSentiment")
