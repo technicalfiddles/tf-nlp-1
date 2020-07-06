@@ -14,4 +14,4 @@ The following are needed for Heroku to run a Streamlit app:
 	3. A file named Procfile that contains instructions for Heroku to run your app.
 
 Example Procfile:  
-	'''web: streamlit run --server.enableCORS false --server.port $PORT your-app-name.py'''
+	```web: streamlit run --server.enableCORS false --server.port $PORT your-app-name.py```
