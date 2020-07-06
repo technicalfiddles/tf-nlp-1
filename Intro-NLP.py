@@ -64,6 +64,10 @@ with st.echo(code_location='above'):
 
 st.write("Go ahead and enter something in the text box - you'll see it displayed right above this line!")
 
+st.markdown("Any time you see 'st', it is applying a method from the streamlit library:  \n"
+        "- st.title --> gives you a title..  \n"
+        "- st.write --> prints to your webpage..  \n"
+        "- st.markdown --> displays text formatted as markdown..")
 
 st.write("References:  \n"
 "Vader: https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f  \n"
