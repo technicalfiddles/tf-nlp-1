@@ -53,7 +53,7 @@ st.code("import streamlit as st \n"
 
 st.write("That's the entire app!  \n"
     " \n"
-    "Streamlit allows you to add interactivity with little effort \n"
+    "Streamlit allows you to add interactivity with little effort.  \n"
     "For example, let's look at the following code and the resulting interactive text box:")
 with st.echo(code_location='above'):
     my_sentence = st.text_input("enter sentence")
