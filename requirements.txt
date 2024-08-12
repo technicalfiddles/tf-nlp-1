@@ -1,2 +1,2 @@
-streamlit==0.62.1
+streamlit==1.37.0
 vaderSentiment==3.3.2
